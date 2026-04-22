@@ -4,13 +4,13 @@ function randomMs(minMs, maxMs) {
 
 function setupLeaveRejoin(bot, createBot) {
     // Timers
-    let leaveTimer = null
+    let leaveTimer = 1000000
     let jumpTimer = null
     let jumpOffTimer = null
-    let reconnectTimer = null
+    let reconnectTimer = 1000000
 
     // State
-    let stopped = true
+    let stopped = false
     let reconnectAttempts = 0
     let lastLogAt = 0
 
