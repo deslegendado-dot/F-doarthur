@@ -3,7 +3,7 @@
   "bot-account": {
     "username": "botzindomal",
     "password": "",
-    "type": "offline"
+    "type": "online"
   },
   "server": {
     "ip": "Serveraternoskk.aternos.me",
